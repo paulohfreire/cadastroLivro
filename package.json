@@ -1,0 +1,22 @@
+{
+  "name": "aula14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "servidor": "live-server --open=app",
+    "compilar": "tsc -w",
+    "start": "concurrently \"yarn compilar\" \"yarn servidor\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
+}

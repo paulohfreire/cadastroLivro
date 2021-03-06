@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "app/js",
+        "noEmitOnError": true,
+        "module": "System"
+        
+    },
+    "include": [
+        "app/ts/**/*"
+    ]
+}
